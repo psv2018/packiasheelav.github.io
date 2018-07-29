@@ -1,0 +1,12 @@
+.page1{
+ width:100%;
+ height:250px;  
+}
+.entry-content{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+}
+.entry-content2{
+    display:grid;
+    grid-template-columns: 3fr 1fr;   
+}
