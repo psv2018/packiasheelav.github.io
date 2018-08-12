@@ -2,13 +2,14 @@
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Mukta',Arial, Helvetica, sans-serif;
   background: #333;
   color: #fff;
   font-size: 1.1em;
   line-height: 1.5;
   text-align: center;
 }
+
 
 img {
   display: block;
@@ -38,7 +39,7 @@ p {
 
 .btn {
   display: inline-block;
-  background: #333;
+  background: #0E8FAB;
   color: #fff;
   text-decoration: none;
   padding: 1em 2em;
@@ -51,6 +52,37 @@ p {
   color: #333;
 }
 
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.navmenu{
+  display:block;
+  background-color: #0E8FAB;
+  height:60px;
+}
+
+.navmenu ul a{
+  text-decoration:none;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.navmenu ul{
+  list-style-type: none;
+  margin-top: 0px;
+  padding-top: 15px;
+}
+.navmenu li {
+  display: inline;
+  padding:10px;
+}
+.navmenu li a {
+  list-style-type: none;
+
+}
 /* Header Showcase */
 
 #showcase {
@@ -85,15 +117,16 @@ p {
 /* Section A */
 
 #section-a {
-  background: #eaeaea;
+  background: #fff;
   color: #333;
-  padding-bottom: 2em;
 }
 
 /* Section B */
 
 #section-b {
   padding: 2em 1em 1em;
+  background: #fff;
+
 }
 
 #section-b ul {
@@ -104,7 +137,7 @@ p {
 
 #section-b li {
   margin-bottom: 1em;
-  background: #fff;
+  background: #0E8FAB;
   color: #333;
 }
 
@@ -128,20 +161,21 @@ p {
 }
 
 #section-d .box:first-child {
-  background: #2690d4;
+  background: #333;
+  color:#fff;
 }
 
 /* Footer */
 
 #main-footer {
   padding: 2em;
-  background: #000;
+  background: #0E8FAB;
   color: #fff;
   text-align: center;
 }
 
 #main-footer a {
-  color: #2690d4;
+  color: #fff;
   text-decoration: none;
 }
 
